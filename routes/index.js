@@ -17,7 +17,7 @@ router.get('/', async function(req, res, next) {
       input: { text: "Ask a question" },
       aspectRatio: "1.91:1",
       buttons: [
-        { label: 'Shake the 8 Ball', action: 'post' }
+        { label: 'Click to see Random image', action: 'post' }
       ],
       cid: startingImageCid
     });
